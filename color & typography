@@ -1,0 +1,27 @@
+TYPOGRAPHY
+menu/test -> Montserrat 24 bold
+title -> Alternate Gothic No.1 D
+text -> Open Sans / Oxygen
+
+COLORS
+nav-bg - #424242
+menu - #000
+menu-hover - #fff
+social icon bg- #2f2f2f
+header css arrow - #b20300
+
+learnmore/marketing slot bg - #01b169
+marketingslot2 img bg- #464646
+marketingslot3 img bg- #e84c3d
+
+title color - #cccccc
+segment1 bg - #f9f9f9
+segment2 bg - #ebebeb
+	->segment2 slots bg - #e5e5e5
+segment3 bg - #2f2f2f
+	->segment3 column bg - #222222
+
+footer bg - #131313
+
+
+

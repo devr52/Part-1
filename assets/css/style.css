@@ -1,0 +1,91 @@
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+ }
+
+ .navbar {
+    margin-bottom: 0px;
+ }
+
+ .navbar-inverse {
+    background-color: #454545;
+    border: none;
+    box-shadow: 0 4px 4px -4px #111;
+ }
+
+ .navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: none;
+ }
+
+ .navbar-nav {
+    margin: 30px auto;
+    z-index: 1500;
+ }
+
+ .nav > li > a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+ }
+
+ .nav > li > a:first-child {
+    padding-left: 0px;
+ }
+
+ .nav-custom-padding > li > a {
+    padding: 0px;
+ }
+
+ #hero {
+    background-image: url(/assets/images/header-bg.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+ }
+
+ .header {
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+ }
+
+ .header h3{
+   font-size:24px;
+   color:white;
+ }
+
+ .logo-position {
+    position: absolute;
+    z-index: 2000;
+    top: 40px;
+    left: 50%;
+    margin-left: -90px;
+ }
+
+ @media (max-width: 768px) {
+    .logo-position {
+       display: none;
+    }
+    .navbar-nav {
+       margin: 5px;
+    }
+ }
+
+ .test {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 70px;
+    margin-left: -35px;
+ }
