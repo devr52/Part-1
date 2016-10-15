@@ -1,91 +1,149 @@
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
- }
+@font-face {
+   font-family: "Bebas Neueu";
+   src: url(vendor/font/BebasNeue Bold.ttf);
+   font-stretch: condensed;
+}
 
- .navbar {
-    margin-bottom: 0px;
- }
+body {
+   font-family: "Oxygen", sans-serif;
+}
 
- .navbar-inverse {
-    background-color: #454545;
-    border: none;
-    box-shadow: 0 4px 4px -4px #111;
- }
+.btn {
+   font-family: "Montserrat", sans-serif;
+}
 
- .navbar-inverse .navbar-nav > .active > a,
- .navbar-inverse .navbar-nav > .active > a:hover,
- .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #fff;
-    background: none;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Montserrat", sans-serif;
+   text-transform: uppercase;
+   font-weight: 600;
+   text-align: center;
+}
 
- .navbar-nav {
-    margin: 30px auto;
-    z-index: 1500;
- }
+.navbar {
+   margin-bottom: 0px;
+}
 
- .nav > li > a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
- }
+.navbar-inverse {
+   background-color: #424242;
+   border: none;
+   box-shadow: 0 4px 4px -4px #111;
+}
 
- .nav > li > a:first-child {
-    padding-left: 0px;
- }
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+   color: #fff;
+   background: none;
+}
 
- .nav-custom-padding > li > a {
-    padding: 0px;
- }
+.navbar-nav {
+   margin: 30px auto;
+   z-index: 1500;
+}
 
- #hero {
-    background-image: url(/assets/images/header-bg.jpg);
-    background-size: cover;
-    position: relative;
-    height: 100vh;
- }
+.nav > li > a {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+}
 
- .header {
-    position: absolute;
-    top: 320px;
-    text-align: center;
-    width: 100%;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
- }
+.nav > li > a:first-child {
+   padding-left: 0px;
+}
 
- .header h3{
-   font-size:24px;
-   color:white;
- }
+.nav-custom-padding > li > a {
+   padding: 0px;
+}
 
- .logo-position {
-    position: absolute;
-    z-index: 2000;
-    top: 40px;
-    left: 50%;
-    margin-left: -90px;
- }
+#hero {
+   background-image: url(/assets/images/header-bg.jpg);
+   background-size: cover;
+}
 
- @media (max-width: 768px) {
-    .logo-position {
-       display: none;
-    }
-    .navbar-nav {
-       margin: 5px;
-    }
- }
+.header {
+   padding-top: 18em;
+   padding-bottom: 4em;
+   text-align: center;
+   width: 100%;
+}
 
- .test {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    width: 70px;
-    margin-left: -35px;
- }
+.intro-text {
+   font-size: 20px;
+   font-weight: 400;
+   color: #fff;
+}
+
+.intro-heading {
+   font-family: "Bebas Neue", sans-serif;
+   color: #e6e6e6;
+   font-size: 55px;
+   font-stretch: condensed;
+   text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header-text {
+   color: #ccc;
+   text-align: justify;
+   margin: 30px auto;
+   line-height: 1.80;
+}
+
+.logo-position {
+   position: absolute;
+   z-index: 2000;
+   top: 40px;
+   left: 50%;
+   margin-left: -90px;
+}
+
+@media (max-width: 768px) {
+   .logo-position {
+      display: none;
+   }
+   .navbar-nav {
+      margin: 5px;
+   }
+}
+
+.down-arrow{
+   position: relative;
+}
+
+.down-arrow:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 0;
+	height: 0;
+    margin-left: -70px;
+	border-top: 40px solid #b20300;
+	border-right: 70px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 70px solid transparent;
+}
+
+.section-title {
+   color: #ccc;
+   font-family: "Benas Neue", sans-serif;
+   font-stretch: condensed;
+   margin-bottom: 25px;
+}
+
+#segment {
+   padding: 60px 0px;;
+}
+
+#segment p{
+   color:#ccc;
+}
+
+.segment-description {
+   margin-top: 60px;
+   background: #f9f9f9;
+}
