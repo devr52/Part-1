@@ -2772,7 +2772,6 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success {
    color: #ffffff;
    background-color: #01b169;
-   border-color:#019859;
 }
 
 .btn-success:focus,
@@ -5902,7 +5901,7 @@ button.close {
 }
 
 .pull-right {
-   float: right !important;
+   float: right;
 }
 
 .pull-left {
