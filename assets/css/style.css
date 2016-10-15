@@ -1,0 +1,54 @@
+.navbar {
+   margin-bottom: 0px;
+}
+
+.navbar-inverse {
+   background-color: #454545;
+   border: none;
+   z-index: 5;
+   box-shadow: 0 4px 4px -4px #111;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+   color: #fff;
+   background: none;
+}
+
+.navbar-nav {
+   margin: 20px auto;
+}
+
+.nav > li > a {
+   font-family: "Montserrat", sans-serif;
+   font-size:
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+   text-decoration: none;
+}
+
+/* CSS ARROW: creates triangle around divs using borders*/
+.css-arrow > li{
+   background: #2f2f2f;
+}
+
+#hero {
+   background-image: url(/assets/images/header-bg.jpg);
+   background-size: cover;
+   position: relative;
+   height: 91vh;
+}
+
+.header {
+   position: absolute;
+   top: 50%;
+   text-align: center;
+   width: 100%;
+   color: #fff;
+   font-size: 36px;
+   -webkit-transform: translate(0, -50%);
+   transform: translate(0, -50%);
+}
