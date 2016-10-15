@@ -8,6 +8,7 @@
    <title>Guest Book - HTML/CSS</title>
    <!-- Bootstrap Core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
    <!-- Custom Fonts -->
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -19,7 +20,6 @@
 </head>
 
 <body id="page-top">
-
    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -44,7 +44,7 @@
             </ul>
 
             <!--            <img src="assets/images/logo-pragmanila.png" alt="company-logo" class="test">-->
-            <ul class="nav navbar-nav navbar-right nav-custom-padding">
+            <ul class="nav navbar-nav navbar-right nav-custom">
                <li>
                   <a href="#"><img src="/assets/images/social-icons/fb-icon.png" alt="fb-logo-link"></a>
                </li>
@@ -65,23 +65,24 @@
 
    <div id="hero">
       <img src="assets/images/logo-pragmanila.png" alt="company-logo" class="logo-position">
-      <div class="container down-arrow">
+      <div class="container header-arrow">
          <div class="header">
             <h3 class="intro-text">PRAGMANILA SOLUTIONS MARKUP TEST</h3>
             <h1 class="intro-heading">YOU SHOULD BUILD THIS <br>SIMPLE, LOGICAL, &amp; STRAIGHTFORWARD</h1>
             <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem facilis aut voluptas unde eaque eius, inventore ullam commodi a aliquam porro, temporibus, voluptatibus in, ipsum. At neque debitis, repellat aliquid consequuntur architecto. Fugiat omnis ipsam, sequi facilis repellendus vitae iusto facere itaque nostrum numquam repellat error cupiditate possimus laborum exercitationem ipsa in accusantium velit totam, debitis distinctio, unde. Dolore in, esse voluptatibus necessitatibus officia quasi inventore et, sunt fugiat unde saepe eligendi aut, doloribus, voluptatem enim tenetur.</p>
-            <a href="#segment" class="btn btn-success page-scroll">LEARN MORE</a>
+            <a href="#segment" class="btn btn-success page-scroll btn-custom">LEARN MORE</a>
          </div>
       </div>
    </div>
-   <section id="segment" class="text-center">
+
+   <section id="segment">
       <div class="container">
          <h2 class="section-title">SEGMENT</h2>
-         <div class="row">
-            <div class="col-sm-4">
+         <div class="row text-center">
+            <div class="col-sm-4 class=" text-center "">
                <img src="assets/images/marketing-img-1.png" alt="marketing-img">
                <h4>Marketing Slot</h4>
-               <p>Section below should have more emphasis on hover. List below can be highlighted individuallu as well.</p>
+               <p>Section below should have more emphasis on hover. List below can be highlighted individually as well.</p>
 
             </div>
             <div class="col-sm-4">
@@ -101,25 +102,55 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-4">
-                  <ul>
-                     <li>WEB DESIGN</li>
-                     <li>UI DESIGN</li>
-                     <li>GRAPHIC DESIGN</li>
-                     <li>BRANDING</li>
-                     <li>CORPORATE IDENTITY</li>
-                     <li>MOBILE APP DESIGN</li>
-                     <li>POSTER DESIGN</li>
-                  </ul>
+                  <div class="box box-green">
+                     <ul class="features">
+                        <li>WEB DESIGN</li>
+                        <li>UI DESIGN</li>
+                        <li>GRAPHIC DESIGN</li>
+                        <li>BRANDING</li>
+                        <li>CORPORATE IDENTITY</li>
+                        <li>MOBILE APP DESIGN</li>
+                        <li>POSTER DESIGN</li>
+                     </ul>
+                     <button class="btn btn-success">BUTTON</button>
+                  </div>
 
-                  <button class="btn btn-success">BUTTON</button>
                </div>
+
+               <div class="col-sm-4">
+                  <div class="box box-black">
+                     <ul class="features">
+                        <li>MARKETING TITLE 1
+                           <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti.</p>
+                        </li>
+                         <li>MARKETING TITLE 2
+                           <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti. Molestiae, aliquam, id.</p>
+                        </li>
+                         <li>MARKETING TITLE 3
+                           <p>Excepturi dolores totam aliquid veniam quis.</p>
+                        </li>
+                     </ul>
+                     <button class="btn btn-black">BUTTON</button>
+                  </div>
+               </div>
+
+               <div class="col-sm-4">
+                  <div class="box box-orange">
+                     <ul class="features">
+                        <li>MARKETING TITLE</li>
+                        <li>MARKETING TITLE</li>
+                     </ul>
+                     <button class="btn btn-orange">BUTTON</button>
+                  </div>
+               </div>
+
             </div>
          </div>
       </article>
 
    </section>
 
-   <section id="guest-book" style="height:1000px;">
+   <section id="guest-book" style="height:500px;">
       <div class="container">
          <div class="row">
             <h2 class="section-title">GUESTBOOK</h2>
@@ -128,6 +159,24 @@
          </div>
       </div>
    </section>
+
+
+   <footer class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-6 copyright">
+               <p>&copy; 2013 PRAGMANILA SOLUTIONS INCORPORATED</p>
+            </div>
+            <div class="col-sm-6 pull-right text-right footer-notes">
+               <ul class="list-inline">
+                  <li><a href="#page-top">HOME</a></li>
+                  <li><a href="#">SERVICES</a></li>
+                  <li><a href="#">CONTACT</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
 
 
 

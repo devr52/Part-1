@@ -21,6 +21,17 @@
       }
    });
 
+   t(".box").hover(function () {
+     t(this).toggleClass("disable");
+     if (t(this).hasClass("box-green")) {
+         t(this).toggleClass("segment-arrow-green");
+      } else if (t(this).hasClass("box-black")) {
+         t(this).toggleClass("segment-arrow-black");
+      } else if (t(this).hasClass("box-orange")) {
+         t(this).toggleClass("segment-arrow-orange");
+      }
+   });
+
 
    t("a.page-scroll").bind("click", function (a) {
       var o = t(this);
