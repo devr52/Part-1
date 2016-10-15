@@ -21,6 +21,10 @@
       }
    });
 
+   t(".box").hover(function(){
+     $(this).toggleClass("disable");
+   });
+
 
    t("a.page-scroll").bind("click", function (a) {
       var o = t(this);
