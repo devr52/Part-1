@@ -82,9 +82,6 @@ MAIN CSS STARTS HERE
 #hero {
 <<<<<<< HEAD
    background-image: url(../assets/images/header-bg.jpg);
-=======
-   background-image: url(assets/images/header-bg.jpg);
->>>>>>> origin/master
    background-size: cover;
 }
 
