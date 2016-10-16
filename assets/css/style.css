@@ -80,7 +80,7 @@ MAIN CSS STARTS HERE
 }
 
 #hero {
-   background-image: url(assets/images/header-bg.jpg);
+   background-image: url(../images/header-bg.jpg);
    background-size: cover;
 }
 
