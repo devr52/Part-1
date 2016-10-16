@@ -409,17 +409,21 @@
     "close.less",
     "component-animations.less",
     "dropdowns.less",
-    "popovers.less"
+    "tooltip.less",
+    "popovers.less",
+    "modals.less",
+    "carousel.less"
   ],
   "js": [
     "alert.js",
     "button.js",
     "dropdown.js",
+    "modal.js",
     "tab.js",
     "affix.js",
     "collapse.js",
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/customize/?id=0b7c5dcdc9c614a71326a41662b54e0d"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1a1a558de9b36605051e7668ede9a2b8"
 }

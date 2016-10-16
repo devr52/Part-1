@@ -1,23 +1,15 @@
 !function (t) {
    "use strict";
-
-   //   t(".test").hide();
-   var logo = t(".navbar-nav");
+   var nav = t(".navbar-nav"),
+       logo = t(".logo-position");
    t(window).scroll(function () {
       var scroll = t(window).scrollTop();
-      if (scroll >= 50) {
-         logo.css({
-            marginTop: '10px',
-            marginBottom: '10px',
-            zIndex: 2500
-         });
-         //         t(".test").fadeIn();
+      if (scroll >= 100) {
+          nav.addClass('scrolling');
+          logo.addClass('transform');
       } else {
-         logo.css({
-            marginTop: '30px',
-            marginBottom: '30px',
-            zIndex: 1500
-         });
+         nav.removeClass('scrolling');
+         logo.removeClass('transform');
       }
    });
 
