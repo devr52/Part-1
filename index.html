@@ -21,20 +21,18 @@
 
 <body id="page-top">
    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- sm-nav -->
       <div class="navbar-header">
+         <h4 class="m-nav-title">PRAGMANILA</h4>
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
          </button>
-         <!--		<a class="navbar-brand" href="#">Title</a>-->
       </div>
 
-
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- lg-nav -->
       <div class="container">
          <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -43,57 +41,64 @@
                <li><a href="#guest-book" class="page-scroll">GUESTBOOK</a></li>
             </ul>
 
-            <!--            <img src="assets/images/logo-pragmanila.png" alt="company-logo" class="test">-->
             <ul class="nav navbar-nav navbar-right nav-custom">
                <li>
-                  <a href="#"><img src="/assets/images/social-icons/fb-icon.png" alt="fb-logo-link"></a>
+                  <a href="#"><img src="assets/images/social-icons/fb-icon.png" alt="fb-logo-link"></a>
                </li>
                <li>
-                  <a href="#"><img src="/assets/images/social-icons/twitter-icon.png" alt="fb-logo-link"></a>
+                  <a href="#"><img src="assets/images/social-icons/twitter-icon.png" alt="fb-logo-link"></a>
                </li>
                <li>
-                  <a href="#"><img src="/assets/images/social-icons/gp-icon.png" alt="fb-logo-link"></a>
+                  <a href="#"><img src="assets/images/social-icons/gp-icon.png" alt="fb-logo-link"></a>
                </li>
                <li>
-                  <a href="#"><img src="/assets/images/social-icons/linkedin-icon.png" alt="fb-logo-link"></a>
+                  <a href="#"><img src="assets/images/social-icons/linkedin-icon.png" alt="fb-logo-link"></a>
                </li>
             </ul>
          </div>
       </div>
-      <!-- /.navbar-collapse -->
    </nav>
 
-   <div id="hero">
+   <header id="hero">
       <img src="assets/images/logo-pragmanila.png" alt="company-logo" class="logo-position">
       <div class="container header-arrow">
          <div class="header">
+            <img class="m-logo" src="assets/images/logo-pragmanila.png" alt="logo">
             <h3 class="intro-text">PRAGMANILA SOLUTIONS MARKUP TEST</h3>
             <h1 class="intro-heading">YOU SHOULD BUILD THIS <br>SIMPLE, LOGICAL, &amp; STRAIGHTFORWARD</h1>
             <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem facilis aut voluptas unde eaque eius, inventore ullam commodi a aliquam porro, temporibus, voluptatibus in, ipsum. At neque debitis, repellat aliquid consequuntur architecto. Fugiat omnis ipsam, sequi facilis repellendus vitae iusto facere itaque nostrum numquam repellat error cupiditate possimus laborum exercitationem ipsa in accusantium velit totam, debitis distinctio, unde. Dolore in, esse voluptatibus necessitatibus officia quasi inventore et, sunt fugiat unde saepe eligendi aut, doloribus, voluptatem enim tenetur.</p>
             <a href="#segment" class="btn btn-success page-scroll btn-custom">LEARN MORE</a>
          </div>
       </div>
-   </div>
+   </header>
+
+   <!--
+   ==========================================================================
+   SEGMENT
+   ==========================================================================
+   -->
 
    <section id="segment">
       <div class="container">
          <h2 class="section-title">SEGMENT</h2>
-         <div class="row text-center">
-            <div class="col-sm-4 class=" text-center "">
+         <div class="row text-center mobile-sd-bg">
+            <div class="col-sm-4 text-center">
                <img src="assets/images/marketing-img-1.png" alt="marketing-img">
                <h4>Marketing Slot</h4>
                <p>Section below should have more emphasis on hover. List below can be highlighted individually as well.</p>
-
+               <button type="button" class="btn btn-success mobile-sd-btn" data-toggle="modal" data-target="#mktg-1">Learn More</button>
             </div>
             <div class="col-sm-4">
                <img src="assets/images/marketing-img-2.png" alt="marketing-img">
                <h4>Marketing Slot</h4>
                <p>Text should have less emphasis until hovered.</p>
+               <button type="button" class="btn btn-black mobile-sd-btn" data-toggle="modal" data-target="#mktg-2">Learn More</button>
             </div>
             <div class="col-sm-4">
                <img src="assets/images/marketing-img-3.png" alt="marketing-img">
                <h4>Marketing Slot</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur culpa impedit.</p>
+               <button type="button" class="btn btn-orange mobile-sd-btn" data-toggle="modal" data-target="#mktg-3">Learn More</button>
             </div>
          </div>
       </div>
@@ -123,10 +128,10 @@
                         <li>MARKETING TITLE 1
                            <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti.</p>
                         </li>
-                         <li>MARKETING TITLE 2
+                        <li>MARKETING TITLE 2
                            <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti. Molestiae, aliquam, id.</p>
                         </li>
-                         <li>MARKETING TITLE 3
+                        <li>MARKETING TITLE 3
                            <p>Excepturi dolores totam aliquid veniam quis.</p>
                         </li>
                      </ul>
@@ -147,19 +152,76 @@
             </div>
          </div>
       </article>
-
    </section>
 
-   <section id="guest-book" style="height:500px;">
+   <!--
+   ==========================================================================
+   GUEST BOOK SECTION
+   ==========================================================================
+   -->
+
+   <section id="guest-book">
       <div class="container">
+         <h2 class="section-title">GUESTBOOK</h2>
          <div class="row">
-            <h2 class="section-title">GUESTBOOK</h2>
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+            <!--  Added custom column sm-size for 5.5  -->
+            <div class="col-sm-65 col-sm-push-55">
+               <div class="gb-container gb-log" id="scroll-bar">
+                  <div class="gb-list">
+                     <span>GuestBook: User</span>
+                     <span class="pull-right">12/1/16 - 21:00:00</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste aperiam quia impedit, harum maxime?</p>
+                  </div>
+                  <div class="gb-list">
+                     <span>GuestBook: User</span>
+                     <span class="pull-right">12/1/16 - 21:00:00</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste aperiam quia impedit, harum maxime?</p>
+                  </div>
+                  <div class="gb-list">
+                     <span>GuestBook: User</span>
+                     <span class="pull-right">12/1/16 - 21:00:00</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste aperiam quia impedit, harum maxime?</p>
+                  </div>
+                  <div class="gb-list">
+                     <span>GuestBook: User</span>
+                     <span class="pull-right">12/1/16 - 21:00:00</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste aperiam quia impedit, harum maxime?</p>
+                  </div>
+                  <div class="gb-list">
+                     <span>GuestBook: User</span>
+                     <span class="pull-right">12/1/16 - 21:00:00</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste aperiam quia impedit, harum maxime?</p>
+                  </div>
+
+               </div>
+            </div>
+
+            <!--  Added custom column sm-size for 6.5  -->
+            <div class="col-sm-55 col-sm-pull-65">
+               <div class="gb-container gb-register">
+                  <form action="" method="POST" role="form">
+                     <legend class="gb-log-title">REGISTER</legend>
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Name" name="name" required="required">
+                     </div>
+
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Subject" name="subject" required="required">
+                     </div>
+
+                     <div class="form-group">
+                        <textarea name="message" id="input" class="form-control" rows="6" placeholder="Message"></textarea>
+                     </div>
+                     <button type="submit" class="btn btn-success btn-block btn-send"><i class="glyphicon glyphicon-send"></i>SEND</button>
+                  </form>
+
+               </div>
+            </div>
+
+
          </div>
       </div>
    </section>
-
 
    <footer class="footer">
       <div class="container">
@@ -169,7 +231,7 @@
             </div>
             <div class="col-sm-6 pull-right text-right footer-notes">
                <ul class="list-inline">
-                  <li><a href="#page-top">HOME</a></li>
+                  <li><a href="#page-top" class="page-scroll">HOME</a></li>
                   <li><a href="#">SERVICES</a></li>
                   <li><a href="#">CONTACT</a></li>
                </ul>
@@ -178,7 +240,85 @@
       </div>
    </footer>
 
+   <!--
+==========================================================================
+MARKETING SECTION MODALS
+==========================================================================
+-->
 
+   <div class="modal fade" id="mktg-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Marketing Slot</h4>
+            </div>
+            <div class="modal-body">
+               <div class="box-modal box-green">
+                  <ul class="features">
+                     <li>WEB DESIGN</li>
+                     <li>UI DESIGN</li>
+                     <li>GRAPHIC DESIGN</li>
+                     <li>BRANDING</li>
+                     <li>CORPORATE IDENTITY</li>
+                     <li>MOBILE APP DESIGN</li>
+                     <li>POSTER DESIGN</li>
+                  </ul>
+               </div>
+               <button class="btn btn-success">BUTTON</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="modal fade" id="mktg-2" role="dialog">
+      <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Marketing Slot</h4>
+            </div>
+            <div class="modal-body">
+               <div class="box-modal box-black">
+                  <ul class="features">
+                     <li>MARKETING TITLE 1
+                        <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti.</p>
+                     </li>
+                     <li>MARKETING TITLE 2
+                        <p>Excepturi dolores totam aliquid, veniam quis voluptatum animi corrupti. Molestiae, aliquam, id.</p>
+                     </li>
+                     <li>MARKETING TITLE 3
+                        <p>Excepturi dolores totam aliquid veniam quis.</p>
+                     </li>
+                  </ul>
+                  <button class="btn btn-black">BUTTON</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="modal fade" id="mktg-3" role="dialog">
+      <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Marketing Slot</h4>
+            </div>
+            <div class="modal-body">
+               <div class="box-modal box-orange">
+                  <ul class="features">
+                     <li>MARKETING TITLE</li>
+                     <li>MARKETING TITLE</li>
+                  </ul>
+                  <button class="btn btn-orange">BUTTON</button>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
 
 
    <script src="vendor/jquery/jquery.min.js"></script>
